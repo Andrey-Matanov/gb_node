@@ -20,7 +20,7 @@ if (arguments.length === 4) {
         const logger = new PrimeNumbersLogger(2, first);
         logger.logPrimeNumbers();
     } else {
-        console.log(colors.red("Аргумент должен являться числом"));
+        console.log(colors.red("Аргумент должен быть числом"));
     }
 } else {
     console.log(
