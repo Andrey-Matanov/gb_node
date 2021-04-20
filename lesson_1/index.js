@@ -11,7 +11,7 @@ if (arguments.length === 4) {
         const logger = new PrimeNumbersLogger(first, second);
         logger.logPrimeNumbers();
     } else {
-        console.log(colors.red("Оба аргумента должны являться числом"));
+        console.log(colors.red("Оба аргумента должны быть числом"));
     }
 } else if (arguments.length === 3) {
     const first = +arguments[2];
